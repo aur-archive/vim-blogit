@@ -1,0 +1,8 @@
+post_install() {
+echo "To use vim-blogit as a user, copy passwords.vim to your home and modify it to your liking:
+cp /etc/conf.d/vim/passwords.vim ~/.vim/
+To use it system-wide, copy passwords.vim to vim's plugin directory:
+cp /etc/conf.d/vim/passwords.vim /usr/share/vim/vimfiles/plugin/
+Help tags available in vim command mode by typing:
+:Blogit help"
+}
